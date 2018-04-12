@@ -1,0 +1,20 @@
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#additionalContent-wrapper{
+    width:100%;
+    text-align: left;
+    padding: 0px 50px;
+}
+#detailBr{
+    display: block;
+}
+
+.addOptionsButtons{
+    padding:15px;
+}
+#confirmationComponent-wrapper{
+    width:100%;
+    text-align: left;
+}

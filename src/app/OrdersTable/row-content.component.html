@@ -1,0 +1,29 @@
+<div class="container" id="additionalContent-wrapper">
+  <br id="detailBr">
+  <h3>Additional options</h3>
+  <div class="row">
+    <div class="col-sm-2 addOptionsButtons">
+      <button class="btn btn-primary" (click)="download()">Export .txt</button>
+    </div>
+    <div class="col-sm-2 addOptionsButtons">
+      <button class="btn btn-primary" (click)="startOrder()">Start order</button>
+    </div>
+    <div class="col-sm-2 addOptionsButtons">
+      <button class="btn btn-primary" (click)="stopOrder()">Stop order</button>
+    </div>
+  </div>
+
+  <div class="container" id="confirmationComponent-wrapper" *ngIf="confirmationVisible">
+    <br id="detailBr">
+    <h5>Please confirm that the order is done</h5>
+    <div class="row">
+      <div class="col-sm-2">
+        <button class="btn btn-primary" (click)="deleteOrder()">Yes</button>
+      </div>
+      <div class="col-sm-2">
+        <button class="btn btn-primary" (click)="cancelDelete()">No</button>
+      </div>
+    </div>
+  </div>
+  <br id="detailBr">
+</div>

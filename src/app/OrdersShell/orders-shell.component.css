@@ -1,0 +1,15 @@
+.navigationButton{
+    text-align: center;  
+    max-width: 100%;
+}
+.navigationButton:hover{
+     cursor: pointer;
+}
+.row{
+    width: 100%;
+    margin: 0px;
+}
+.noStyleAnchor{
+    text-decoration: none;
+    color:#292b2c;
+}

@@ -1,0 +1,37 @@
+.initialButtons{
+    height:150px;
+    width: 100%;
+    margin:0px;
+    padding : 0px 15px;
+}
+
+.row {
+    width:100%;
+    margin:0px;
+}
+.container-fluid{
+    padding: 0px;
+}
+
+#emdenLeerLogo { 
+    max-width: 100%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.jumbotron{
+    padding: 2rem 0rem;
+    background-color: white;
+}
+
+.jumboContainer{
+    text-align: center;
+}
+.navbar{
+    height:65px;
+    color: white;
+}
+.imageContainer{
+    margin-bottom:30px;
+}
+
