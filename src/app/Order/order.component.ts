@@ -5,3 +5,4 @@ export class Order{
     public description: string;
     public status: string;
 }
+//Classe correspondant à un order selon le format du serveur Rest

@@ -29,7 +29,7 @@ export class RowContentComponent {
 	str = str.replace(/[^\x20-\x7E]+/g, '');
     saveAs(new Blob([str], { type: "text" }), "Gravurtext.txt");
   }
-
+  //ici il faudrait faire les updates
   startOrder(): void {
     for (let i = 0; i < this.data.length; i++) {
       if (this.data[i] == this.wholeRow.row) {
@@ -43,7 +43,10 @@ export class RowContentComponent {
     if (this.wholeRow.row.status == "Started")
       this.confirmationVisible = true;
   }
-
+  //jusque ici
+  
+  //a retirer a partir d'ici (delete order ne doit pas etre accessible pour l'utilisateur
+  
   deleteOrder(): void {
     for (let i = 0; i < this.data.length; i++) {
       if (this.data[i] == this.wholeRow.row) {
